@@ -1,0 +1,144 @@
+*{
+  font-family: 'Mukta', sans-serif;
+  margin: 0;
+}
+
+#best-of-adidas-slider{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html, body{
+  height: 100%;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.container{
+  width: 1600px;
+  margin: auto;
+}
+
+.subcontainer{
+  width: 85%;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.controller{
+  display: flex;
+  justify-content: space-between;
+}
+
+#controls i{
+  font-size: 20px;
+  color: grey;
+}
+
+.prev, .next{
+  width: 45px;
+  height: 45px;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+.prev:hover, .next:hover{
+  background-color: black;
+}
+
+.prev:hover #left-angle{
+  color: white;
+}
+
+.next:hover #right-angle{
+  color: white;
+}
+
+.slide{
+  width: 300px;
+  height: 400px;
+}
+
+.product-name{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.product-category{
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+.slide-image{
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide:hover{
+  border: 1px solid black;
+}
+
+.image-1{
+  background-image: url('public/slide-images/slide-image-1.webp')
+}
+
+.image-2{
+  background-image: url('public/slide-images/slide-image-2.webp')
+}
+
+.image-3{
+  background-image: url('public/slide-images/slide-image-3.webp')
+}
+
+.image-4{
+  background-image: url('public/slide-images/slide-image-4.webp')
+}
+
+.image-5{
+  background-image: url('public/slide-images/slide-image-5.webp')
+}
+
+.image-6{
+  background-image: url('public/slide-images/slide-image-6.webp')
+}
+
+.image-7{
+  background-image: url('public/slide-images/slide-image-7.webp')
+}
+
+.image-8{
+  background-image: url('public/slide-images/slide-image-8.webp')
+}
+
+.image-9{
+  background-image: url('public/slide-images/slide-image-9.webp')
+}
+
+.image-10{
+  background-image: url('public/slide-images/slide-image-10.webp')
+}
+
+.image-11{
+  background-image: url('public/slide-images/slide-image-11.webp')
+}
+
+.image-12{
+  background-image: url('public/slide-images/slide-image-12.jpg')
+}
+
+@media(max-width: 1600px){
+  .container{
+    width: 100%;
+  }
+}
